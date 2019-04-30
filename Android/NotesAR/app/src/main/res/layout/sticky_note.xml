@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/postItNoteTextView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:gravity="center"
+    app:autoSizeTextType="uniform"
+    android:maxLines="3"
+    app:autoSizeMaxTextSize="15dp"
+    app:autoSizeMinTextSize="5dp"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+    android:textStyle="bold" />
