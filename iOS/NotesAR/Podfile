@@ -1,0 +1,9 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'NotesAR' do
+
+  # Pods for SampleObjC
+  pod 'AzureSpatialAnchors', '1.1.0'
+
+end
