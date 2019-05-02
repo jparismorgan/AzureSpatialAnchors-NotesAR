@@ -34,9 +34,9 @@ We use a SHARING_SERVICE_GROUPING_KEY to group anchors. You can only place 10 an
 
 ### Improvements
 
-- [] Don't use thread.sleep() in the Android sample. Use a callback or check for sessionProgress in the rendering loop.
-- [] Add UI to choose grouping key OR use GPS to narrow down.
-- [] Refactor iOS to have a separate class extension per protocol. Code is easier to read like that.
+- Don't use thread.sleep() in the Android sample. Use a callback or check for sessionProgress in the rendering loop.
+- Add UI to choose grouping key OR use GPS to narrow down.
+- Refactor iOS to have a separate class extension per protocol. Code is easier to read like that.
 
 ### Contact
 
