@@ -32,6 +32,11 @@ Next, Get an Account ID and Account Key from Azure and paste them in to MainActi
 
 We use a SHARING_SERVICE_GROUPING_KEY to group anchors. You can only place 10 anchors per SHARING_SERVICE_GROUPING_KEY because a Watcher can only look for 10 anchors at a time. When you get to this limit, just change the key. To improve this demo app, we may add UI that lets you select the anchor grouping, or perhaps use GPS to narrow the search down. 
 
+### Improvements
+
+- [] Don't use thread.sleep() in the Android sample. Use a callback or check for sessionProgress in the rendering loop.
+- [] Add UI to choose grouping key OR use GPS to narrow down.
+- [] Refactor iOS to have a separate class extension per protocol. Code is easier to read like that.
 
 ### Contact
 
